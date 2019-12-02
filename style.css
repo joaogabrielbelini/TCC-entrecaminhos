@@ -1,0 +1,202 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+body{
+		font-family: 'Roboto Slab', serif;
+}
+
+.icone img{
+  width: 18px; 
+  height: 18px; 
+  margin-right: 6px;
+  margin-left: 1%;
+}
+
+
+.navbar-brand img{
+    width: 250px;
+
+}
+
+.navbar-brand{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+
+.margem_portifolio{
+  margin-top: 8%;
+  font-family: 'IM Fell DW Pica SC', serif;
+
+}
+
+.margem_portifolioh2{
+  margin-top: 5%;
+  font-family: 'IM Fell DW Pica SC', serif;
+
+}
+
+.barraatalho{
+  position: fixed;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  z-index:1;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+#meio{
+  padding-bottom: 3%;
+}
+
+.tamanho{
+	font-size: 20px;
+}
+
+.fundo_menu{
+	background-color: black;
+}
+
+.fundo_inicio{
+  background-image: url(https://ak3.picdn.net/shutterstock/videos/1012216823/thumb/1.jpg);
+  background-size: cover;
+  background-position: center;
+ padding-bottom: 15%;
+ padding-top: 19%;
+
+}
+
+
+@media screen and (min-width: 503px) {
+  .titulo{
+    font-size: 70px;
+  color: #FFFFFF;
+  font-family: 'IM Fell DW Pica SC', serif;
+  }
+}
+
+.titulo{
+  font-family: 'IM Fell DW Pica SC', serif;
+  color: #FFFFFF;
+}
+
+.subtitulo{
+  color: #FFFFFF;
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.seta{
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 503px) {
+  .seta{
+    display: none;
+  }
+
+  .titulo{
+  font-size: 48px;
+  color: #FFFFFF;
+  font-family: 'IM Fell DW Pica SC', serif;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .margem_portifolio{
+  margin-top: 10%;
+    }
+}
+
+
+@media screen and (max-width: 537px){
+
+    .margem_portifolio{
+  margin-top: 20%;
+
+}
+
+
+
+
+  
+@media screen and (max-width: 400px){
+
+    .navbar-brand img{
+      width: 190px;
+
+  }
+
+
+
+  }
+    .navbar-brand{
+    position: absolute;
+    left: 56%;
+    transform: translateX(-50%);
+    top: 0;
+  }
+}
+
+.quemsomos{
+  margin-top: 5%;
+}
+
+
+.titulo-quemsomos{
+  font-family: 'IM Fell DW Pica SC', serif;
+  margin-bottom: 5%;
+  font-size: 60px;
+}
+
+.card-deck{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+
+#seta:hover {
+    content: url(img/seta_mouse_sobre.png);
+}
+
+.img-livro{
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.previous{
+  color: orange; 
+  position: static;
+   margin-left: 1%;
+  margin-top: 10px;
+  font-size:25px;
+  font-family: 'IM Fell DW Pica SC', serif;
+  text-decoration: none;  
+}
+
+.texto_livro{
+  margin-left:15%;
+   margin-right:15%;
+    margin-top: 4%;"
+}
+
+  .card-img-top{
+  width:100%;
+  height:auto;
+}
